@@ -83,11 +83,12 @@ h1{
     align-items: center;
     width: 150px;
     height: 50px;
+    border-radius: 10px;
 }
 .column1 ul li a img
 {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 .column1 ul li a
 {
@@ -102,15 +103,15 @@ h1{
 
 .twitter
 {
-    background-color: #47acdf;
+    background-color: #03a9f3;
 }
 .linkedin
 {
-    background-color:  #0a5893;
+    background-color:  #4875b4;
 }
 .medium
 {
-    background-color: black;
+    background-color: #2a272a;
 }
 .illustration
 {
