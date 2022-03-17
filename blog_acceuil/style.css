@@ -10,7 +10,7 @@
 }
 
 
-body{
+.conteneur{
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -35,20 +35,18 @@ header figure
     width: 202px;
     height: 202px;
 }
-nav
-{
-    width: 30%;
-}
 nav ul
 {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 nav ul li{
+    margin: 0 0 0 30px;
     color: #5a47ab;
 }
+
 main{
     margin: 0 25%;
 }
@@ -128,7 +126,7 @@ article>a
     border-bottom: #d05270 1px solid;
     color: #d05270;
     text-decoration: none;
-    width: 150px;
+    width: 140px;
 }
 section.articles
 {
