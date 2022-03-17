@@ -10,11 +10,14 @@ html {
     display: flex;
     justify-content: center;
 }
-
+.logonav
+{
+    opacity: 20%;
+}
 #wrapper {
     height: 75%;
     width: 1200px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.9);
     border: solid 2px rgb(0, 0, 0);
     box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
     display: flex;
@@ -31,7 +34,6 @@ h1 {
 nav {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 ul {
@@ -107,15 +109,9 @@ textarea {
 figure {
     display: flex;
     order: 2;
-    height: 210px;
+    height: 180px;
     width: 518px;
     margin: 0;
     padding-left: 55px;
 }
 
-footer {
-    height: 150px;
-    width: 1200px;
-    background-color: white;
-    font-size: 10px;
-}
