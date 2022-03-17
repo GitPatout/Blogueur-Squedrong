@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap%27");
+*
+{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li
+{
+    display: inline;
+    padding-right: 20px;
+}
+.tout
+{   
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin-left: 430px;
+    margin-top: 30px;
+}
+h1,h2,h3
+{
+    font-size: x-large;
+    color: #D05270;
+    font-family: 'Abril Fatface', 'sans-serif';
+}
+article
+{
+    margin-top: 20px;
+}
+p
+{
+    margin-top: 20px;
+}
+footer
+{
+    display: flex;
+    width: 1100px;
+    margin-left: 430px;
+    margin-top: 60px;
+}
+.footergauche
+{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+}
+.footergauche ul
+{
+    padding-left: 0;
+}
+.footergauche
+{
+    margin-left: 30px;
+}
+h4
+{
+    font-size: xx-large;
+    color: #D05270;
+}
+.pfooter
+{
+    white-space: pre-line;
+}
+.twitter
+{
+    display: block;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: url(Img/BoutonTwitter.png) no-repeat;
+    color: white;
+    width: 150px;
+}
+.linkedin
+{
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: url(Img/BoutonLinkedin.png) no-repeat;
+    color: white;
+    width: 150px; 
+}
+.medium
+{
+    display: block;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: url(Img/BoutonMedium.png) no-repeat;
+    color: white;
+    width: 150px;
+}
+.twitter a
+{
+    color: white;
+    text-decoration: none;
+}
+.linkedin a
+{
+    color: white;
+    text-decoration: none;
+}
+.medium a
+{
+    color: white;
+    text-decoration: none;
+}
+.logoli
+{
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.ulboutons
+{
+    display: flex;  
+    justify-content: space-between;
+}
+.footerdroit
+{
+    margin-left: 80px;
+}
