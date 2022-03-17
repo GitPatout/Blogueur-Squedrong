@@ -14,9 +14,9 @@ html {
 #wrapper {
     height: 75%;
     width: 1200px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.91);
     border: solid 2px rgb(0, 0, 0);
-    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+    box-shadow: 10px 10px 100px 10px rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     flex-direction: column;
