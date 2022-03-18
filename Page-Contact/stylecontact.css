@@ -5,7 +5,7 @@
 }
 
 html {
-    background: linear-gradient(120deg, rgba(0, 0, 0, 0.7), rgba(208, 82, 111, 0.7)), url(pc.jpg);
+    background: no-repeat, linear-gradient(120deg, rgba(0, 0, 0, 0.7), rgba(208, 82, 111, 0.7)), url(pc.jpg);
     background-position: center;
 }
 
