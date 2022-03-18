@@ -130,3 +130,14 @@ figure {
     margin: 0;
     padding-left: 55px;
 }
+
+#link {
+    display: flex;
+    justify-content: center;
+}
+
+#link ul li a img {
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+}
