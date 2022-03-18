@@ -74,14 +74,14 @@ h1{
 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .column1 ul li
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 150px;
+    width: 125px;
     height: 50px;
     border-radius: 10px;
 }
@@ -133,6 +133,7 @@ section.articles
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px ;
 }
 .article1
 {
@@ -167,7 +168,6 @@ section.articles
 
 article
 {
-    margin: 0 15px 50px 10px;
     display: flex;
     flex-flow: column;
 }
