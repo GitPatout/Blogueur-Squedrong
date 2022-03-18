@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* border: 1px red solid; */
+}
+
+
+.conteneur{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+a,li
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li{
+    list-style-type: none;
+}
+main{
+    width: 50%;
+}
+/* header */
+header{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+header figure
+{
+    margin: 0 0 0 -50px;
+    width: 202px;
+    height: 202px;
+}
+nav ul
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin: 0 0 0 30px;
+    color: #5a47ab;
+}
