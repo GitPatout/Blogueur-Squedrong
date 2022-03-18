@@ -45,12 +45,14 @@ header figure
 nav ul
 {
     height: 100%;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-nav ul li{
+nav ul li a{
     margin: 0 0 0 30px;
+    padding: 0;
     color: #5a47ab;
 }
 
