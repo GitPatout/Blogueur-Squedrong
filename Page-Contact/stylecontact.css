@@ -5,9 +5,6 @@
 }
 
 html {
-    height: 100%;
-    display: flex;
-    justify-content: center;
     background: linear-gradient(20deg, rgba(175, 36, 36, 0.685), rgba(250, 70, 250, 0.8)), url(pc.jpg);
     background-position: center;
 }
@@ -15,11 +12,11 @@ html {
 #wrapper {
     display: flex;
     height: 75%;
-    width: 1200px;
+    width: 50%;
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    justify-content: space-between;
     flex-direction: column;
-    margin: 75px;
 }
 
 h1 {
@@ -28,10 +25,15 @@ h1 {
     color: #d0526f;
 }
 
+header {
+    margin-bottom: 100px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.822);
 }
 
 ul {
