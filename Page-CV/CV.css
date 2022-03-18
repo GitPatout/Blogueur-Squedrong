@@ -99,6 +99,7 @@ footer
     display: flex;
     justify-content: space-between;
     width: 50%;
+    padding-bottom: 50px;
 }
 .footergauche
 {
