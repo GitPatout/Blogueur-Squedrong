@@ -1,42 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap%27"); 
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap%27");
+
 *
 {
     font-family: 'Montserrat', sans-serif; 
 }
+
 /* police de la page */
+
 .tout
 {
     display: flex;
     flex-direction: column;
 }
+
 nav
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
-/* Barre de navigation */
-ul
-{
-    display: flex;
 
-}
+/* Barre de navigation */
+
 li
 {
     display: flex;
     padding: 5px;
 }
+
 /* Barre de navigation */
+
 .propos
 {
     font-size: x-large;
     display: flex;
     justify-content: space-between;
-    width: 36%;
+    width: 47%;
     margin: auto;
 }   
+
 /* ce flex represente l'image et la phrase */
+
 .para
 {
     padding-bottom: 40px;
@@ -47,7 +52,9 @@ li
     max-width: 1200px;
     margin: auto;
 }
+
 /* description des a propos qui suis-je et mon histoire*/
+
 footer
 {
     width: 50%;
@@ -59,13 +66,17 @@ ul
     display: flex;
     justify-content: space-evenly;
 }
+
 /* l'emplacement des lien */
+
 h1,h3
 {
     font-family: 'Abril Fatface', 'sans-serif';
     color: #D05270;
 }
+
 /* couleur des titres */
+
 footer ul li a
 {
     display: flex;
@@ -77,30 +88,37 @@ footer ul li a
     color: #fdfefe;
     text-decoration: none;
 }
+
 footer ul li a img
 {
 
     height: 25px;
     width: 25px;
 }
+
 /* le footer en bas de page les emplacement avec des boutons */
+
 .twitter
 {
     background-color: #00a6f3;
     border-radius: 10px;
 }
 
+/* couleur des boutons */
 .linkedin
 {
     background-color: #4875b4;
     border-radius: 10px;
 }
 
+/* couleur des boutons */
+
 .medium
 {
     background-color: #2c2a2c;
     border-radius: 10px;
 }
+
 /* couleur des boutons */
 
 li a
@@ -108,3 +126,4 @@ li a
     text-decoration: none;
     color: black;
 }
+/* bouton texte */
