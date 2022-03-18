@@ -70,6 +70,9 @@ main img
 {
     flex-flow: row-reverse;
 }
+.ind img , .indreverse img{
+    width: 25%;
+}
 
 
 /* footer */

@@ -22,9 +22,7 @@ nav
     text-decoration: none;
     color: purple;
 }
-{
-    display: flex;
-}
+
 ul li
 {
     display: inline;
