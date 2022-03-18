@@ -116,6 +116,7 @@ h3
 .pfooter
 {
     white-space: pre-line;
+    margin: 14px 0px;
 }
 .twitter,.linkedin,.medium{
     display: block;
