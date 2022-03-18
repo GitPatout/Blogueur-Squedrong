@@ -13,7 +13,7 @@
 nav
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 /* Barre de navigation */
@@ -33,7 +33,7 @@ li
     font-size: x-large;
     display: flex;
     justify-content: space-between;
-    width: 36%;
+    width: 47%;
     margin: auto;
 }   
 /* ce flex represente l'image et la phrase */
@@ -60,6 +60,7 @@ ul
     justify-content: space-evenly;
 }
 /* l'emplacement des lien */
+
 h1,h3
 {
     font-family: 'Abril Fatface', 'sans-serif';
