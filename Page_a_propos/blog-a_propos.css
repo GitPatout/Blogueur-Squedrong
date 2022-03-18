@@ -5,7 +5,10 @@
 {
     font-family: 'Montserrat', sans-serif;
 }
-
+p
+{
+    text-align: justify;
+}
 /* police de la page */
 
 .tout

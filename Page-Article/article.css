@@ -4,6 +4,10 @@
 {
     font-family: 'Montserrat', sans-serif;
 }
+p
+{
+    text-align: justify;
+}
 nav
 {
     display: flex;
