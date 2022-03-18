@@ -4,16 +4,13 @@
 {
     font-family: 'Montserrat', sans-serif;
 }
-body
-{
-    margin: 0;
-    padding: 0;
-}
 nav
 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 180px;
+    margin-right: 160px;
 }
 .navli a
 {
@@ -37,9 +34,14 @@ ul li
 {   
     display: flex;
     flex-direction: column;
-    width: 1100px;
-    margin-left: 430px;
+    width: 1000px;
+    margin-left: 480px;
     margin-top: 30px;
+}
+.tout img
+{
+    width: 995px;
+    height: 673px;
 }
 h1,h2,h3
 {
@@ -88,6 +90,7 @@ h4
 .twitter
 {
     display: block;
+    border-radius: 10px;
     width: 150px;
     line-height: 50px;
     text-align: center;
@@ -98,6 +101,7 @@ h4
 .linkedin
 {
     display: block;
+    border-radius: 10px;
     text-decoration: none;
     width: 150px;
     line-height: 50px;
@@ -109,6 +113,7 @@ h4
 .medium
 {
     display: block;
+    border-radius: 10px;
     width: 150px;
     line-height: 50px;
     text-align: center;
