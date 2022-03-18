@@ -8,6 +8,10 @@
     margin: 0;
     /* border: 1px red solid; */
 }
+h1,h2{
+    color: #d05270;
+    font-family: 'Abril Fatface', 'sans-serif'; 
+}
 
 
 .conteneur{
@@ -49,4 +53,8 @@ nav ul
 nav ul li{
     margin: 0 0 0 30px;
     color: #5a47ab;
+}
+main img
+{
+    width: 100%;
 }
