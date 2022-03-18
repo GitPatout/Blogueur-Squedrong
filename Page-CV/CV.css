@@ -69,9 +69,13 @@ article{
 }
 
 /* Article indivduel */
+article{
+    margin-bottom: 70px;
+}
 .ind , .indreverse
 {
     display: flex;
+    justify-content: space-between;
 }
 .indreverse
 {
@@ -79,8 +83,15 @@ article{
 }
 .ind img , .indreverse img{
     width: 25%;
+    height: 200px;
 }
-
+.presentation
+{
+    width: 67%;
+}
+.presentation p{
+    margin-top: 20px;
+}
 
 /* footer */
 footer
