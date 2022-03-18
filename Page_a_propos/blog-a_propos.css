@@ -17,11 +17,7 @@ nav
     align-items: center;
 }
 /* Barre de navigation */
-ul
-{
-    display: flex;
 
-}
 li
 {
     display: flex;

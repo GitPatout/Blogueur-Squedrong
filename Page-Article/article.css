@@ -90,6 +90,7 @@ h4
 .twitter
 {
     display: block;
+    border-radius: 10px;
     width: 150px;
     line-height: 50px;
     text-align: center;
@@ -100,6 +101,7 @@ h4
 .linkedin
 {
     display: block;
+    border-radius: 10px;
     text-decoration: none;
     width: 150px;
     line-height: 50px;
@@ -111,6 +113,7 @@ h4
 .medium
 {
     display: block;
+    border-radius: 10px;
     width: 150px;
     line-height: 50px;
     text-align: center;
