@@ -58,3 +58,91 @@ main img
 {
     width: 100%;
 }
+
+/* footer */
+footer
+{
+    display: flex;
+    width: 50%;
+}
+.footergauche
+{
+    display: flex;
+    flex-direction: column;
+}
+h4
+{
+    font-size: xx-large;
+    color: #D05270;
+}
+.pfooter
+{
+    white-space: pre-line;
+}
+.twitter
+{
+    display: block;
+    border-radius: 10px;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: url(Img/BoutonTwitter.png) no-repeat;
+    color: white;
+    width: 150px;
+}
+.linkedin
+{
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: url(Img/BoutonLinkedin.png) no-repeat;
+    color: white;
+    width: 150px; 
+}
+.medium
+{
+    display: block;
+    border-radius: 10px;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: url(Img/BoutonMedium.png) no-repeat;
+    color: white;
+    width: 150px;
+}
+.twitter a
+{
+    color: white;
+    text-decoration: none;
+}
+.linkedin a
+{
+    color: white;
+    text-decoration: none;
+}
+.medium a
+{
+    color: white;
+    text-decoration: none;
+}
+.logoli
+{
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.ulboutons
+{
+    display: flex;  
+    justify-content: space-between;
+}
+
+
+
+
+
+
