@@ -125,10 +125,12 @@ h1{
 }
 article>a
 {
-    border-bottom: #d05270 1px solid;
     color: #d05270;
     text-decoration: none;
     width: 140px;
+}
+article>a>span{
+    border-bottom: #d05270 1px solid;
 }
 section.articles
 {
