@@ -3,18 +3,30 @@
 *
 {
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 p
 {
     text-align: justify;
 }
+.cont
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
 nav
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 180px;
-    margin-right: 160px;
+    width: 50%;
+}
+.nava
+{
+    margin-left: -50px;
 }
 .navli a
 {
@@ -26,24 +38,26 @@ nav
     text-decoration: none;
     color: purple;
 }
-
 ul li
 {
+    margin-left: 30px;
     display: inline;
-    padding-right: 20px;
 }
 .tout
 {   
     display: flex;
     flex-direction: column;
-    width: 1000px;
-    margin-left: 480px;
     margin-top: 30px;
+    align-items: center;
+    width: 50%;
 }
-.tout img
+.illustration
 {
-    width: 995px;
-    height: 673px;
+    width: 100%;
+}
+article
+{
+    max-width: 1000px;
 }
 h1,h2,h3
 {
