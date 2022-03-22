@@ -7,7 +7,7 @@ Notre groupe de 4 developpeur integrateurs web avont eu pour projet, la realisat
 
 les participants
 
-Julien patout
-Simon van berkum
-Steven delval
+Julien patout;
+Simon van berkum;
+Steven delval;
 Alexandre lekieffre
